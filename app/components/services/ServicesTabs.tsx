@@ -25,7 +25,7 @@ export function Servicestabs() {
                     alt="tphoto"
                     className="w-full h-2xl rounded-sm mx-auto mb-4 border-4 border-white shadow-lg"
                 />
-                <p className="text-gray-500 text-sm text-left mb-8">Our core focus is providing expert psychiatric evaluations and ongoing management for a wide range of mental health conditions. We believe in a collaborative approach, working with you to develop a personalized treatment plan that addresses your specific needs and goals, helping you navigate life's challenges with support and expert guidance.</p>
+                <p className="text-gray-500 text-sm text-left mb-8">Our core focus is providing expert psychiatric evaluations and ongoing management for a wide range of mental health conditions. We believe in a collaborative approach, working with you to develop a personalized treatment plan that addresses your specific needs and goals, helping you navigate life&apos;s challenges with support and expert guidance.</p>
 
                 <List className="leading-12 space-y-4 text-sm mb-5  text-left">
                     <ListItem className="text-accent" icon={TickIcon}>Psychiatric Evaluations & Diagnosis</ListItem>

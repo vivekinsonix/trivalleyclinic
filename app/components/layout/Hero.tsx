@@ -21,7 +21,7 @@ export default function Hero() {
                         Feeling  Overwhelmed, Anxious, or Alone?
                     </h1>
                     <p className="mt-3  text-stone-600">
-                        It's okay not to be okay. Our compassionate doctors provide expert psychiatric care and personalized solutions, guiding you from where you are today to a place of peace and well-being. Imagine a life where you feel like yourself again.
+                        It&apos;s okay not to be okay. Our compassionate doctors provide expert psychiatric care and personalized solutions, guiding you from where you are today to a place of peace and well-being. Imagine a life where you feel like yourself again.
                     </p>
                 </div>
 
