@@ -17,7 +17,7 @@ export function Header() {
                     <span className="self-center lg:hidden text-accent whitespace-nowrap text-xl font-semibold dark:text-accent headingclass">TVC</span>
                 </NavbarBrand>
                 <div className="flex md:order-2 bg-primary ">
-                    <Button href="#schedule" className="px-8 py-4 h-12 text-lg font-semibold shadow-lg m-auto" outline >Request Appointment</Button>
+                    <Button href="#schedule" className="lg:px-8 lg:py-4 lg:h-12 lg:text-lg text-sm font-semibold shadow-lg m-auto" outline >Request Appointment</Button>
                     <NavbarToggle className="ml-2" />
                 </div>
                 <NavbarCollapse>

@@ -16,7 +16,7 @@ export default function Hero() {
             {/* Centered content */}
             <div className="relative z-10 text-center max-w-3xl">
                 {/* Title box with border */}
-                <div className="border-2 border-accent bg-gradient-to-b from-primary via-primary/90 to-primarysky rounded-none lg:px-16 py-32 inline-block">
+                <div className="border-2 border-accent bg-gradient-to-b from-primary via-primary/90 to-primarygray rounded-none lg:px-16 py-32 inline-block">
                     <h1 className="text-5xl md:text-6xl font-normal text-accent headingclass">
                         Feeling  Overwhelmed, Anxious, or Alone?
                     </h1>

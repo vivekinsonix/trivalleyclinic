@@ -18,9 +18,9 @@ export default function Virtual() {
             {/* Centered content */}
             <div className="relative z-10 text-center max-w-3xl">
                 {/* Title box with border */}
-                <div className="border-2 border-accent bg-gradient-to-b from-primary via-primary/90 to-primarysky rounded-none px-16 py-32 inline-block">
+                <div className="border-2 border-accent bg-gradient-to-b from-primary via-primary/90 to-primarygray rounded-none px-16 py-32 inline-block">
                     <h1 className="text-5xl md:text-6xl mb-3 font-normal text-accent headingclass">
-                        Schedule Your  Appointment.
+                        Schedule Your Appointment.
                     </h1>
                     <p className="mt-3  text-stone-600">
                         For your convenience and safety, Tri-Valley Clinic offers secure

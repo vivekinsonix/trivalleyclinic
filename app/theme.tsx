@@ -24,8 +24,8 @@ const customTheme = createTheme({
         link: {
             base: "text-accent dark:text-accent pt-2 flex items-center hover:text-accent transition-colors duration-200 border-0",
             active: {
-                on: "text-accent font-normal hover:text-accent bg-highlight lg:bg-transparent dark:lg:bg-transparent",
-                off: "text-accent hover:text-accent",
+                on: "text-accent font-normal hover:text-accent dark:text-accent bg-highlight lg:bg-transparent dark:lg:bg-transparent",
+                off: "text-accent dark:text-accent hover:text-accent dark:hover:text-accent",
             },
         },
     },
@@ -46,11 +46,11 @@ const customTheme = createTheme({
         },
         color: {
             default:
-                "bg-primarypink text-accent hover:primarypink/70 cursor-pointer dark:bg-primarypink focus:ring-none " +
-                "dark:bg-primarypink dark:hover:bg-primarypink/70 dark:focus:ring-none",
+                "bg-primarysky text-accent hover:primarysky/70 cursor-pointer dark:bg-primarysky focus:ring-none " +
+                "dark:bg-primarysky dark:hover:bg-primarysky dark:focus:ring-none",
         },
         outlineColor: {
-            "default": "border bg-primarysky  border-primarysky rounded-0 text-accent hover:border-primarysky hover:bg-primarysky/70 hover:text-accent focus:ring-primary-300 shadow-2xl dark:border-primarysky dark:text-accent dark:hover:border-primarysky dark:hover:bg-primarysky/70 cursor-pointer dark:hover:text-accent dark:focus:ring-primary",
+            "default": "border bg-primaryteal  border-primaryteal rounded-0 text-accent hover:border-primaryteal hover:bg-primaryteal/70 hover:text-accent focus:ring-primary-300 shadow-2xl dark:border-primaryteal dark:text-accent dark:hover:border-primaryteal dark:hover:bg-primaryteal/70 cursor-pointer dark:hover:text-accent dark:focus:ring-primary",
         }
     },
     card: {
@@ -76,29 +76,29 @@ const customTheme = createTheme({
         tablist: {
             base: "flex text-center",
             variant: {
-                default: "flex-wrap border-b border-gray-200 dark:border-gray-700",
+                default: "flex-wrap border-b border-primarysky dark:border-gray-700",
                 underline:
-                    "-mb-px flex-wrap border-b border-gray-200 dark:border-gray-700",
+                    "-mb-px flex-wrap border-b border-primarysky dark:border-gray-700",
                 pills:
                     "flex-wrap space-x-2 text-lg font-medium text-gray-500 dark:text-gray-400",
                 fullWidth:
-                    "grid w-full grid-flow-col divide-x divide-gray-200 rounded-none text-lg font-medium shadow dark:divide-gray-700 dark:text-gray-400",
+                    "grid w-full grid-flow-col divide-x divide-gray-200 rounded-none text-lg font-medium shadow dark:divide-gray-700 dark:text-gray-900",
             },
             tabitem: {
-                base: "flex items-center justify-center rounded-t-lg lg:p-4 p-3 text-lg font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500",
+                base: "flex items-center justify-center rounded-t-lg lg:p-4 p-3 text-lg font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-gray-700 disabled:dark:text-gray-900",
                 variant: {
                     default: {
                         base: "rounded-t-lg",
                         active: {
                             on: "bg-gray-100 text-black dark:bg-gray-800 dark:text-primary-500",
-                            off: "text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300",
+                            off: "text-gray-800 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-900 dark:hover:bg-gray-800 dark:hover:text-gray-800",
                         },
                     },
                     underline: {
                         base: "rounded-t-lg",
                         active: {
-                            on: "rounded-t-lg border-b-6 border-highlight  text-black dark:border-highlight dark:text-black",
-                            off: "border-b-2 border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300",
+                            on: "rounded-t-lg border-b-6 border-accent  text-black dark:border-accent dark:text-black",
+                            off: "border-b-2 border-transparent text-gray-600 hover:border-gray-300 hover:text-gray-800 dark:text-gray-600 dark:hover:text-gray-800",
                         },
                     },
                     pills: {

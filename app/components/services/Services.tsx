@@ -1,18 +1,18 @@
 "use client";
 
-import { Button } from "flowbite-react";
+
 import { Servicestabs } from "./ServicesTabs";
 
 export default function Services() {
     return (
         <section
-            className="relative w-full bg-gradient-to-b from-primary via-primary/90 to-primarysky bg-cover bg-center flex items-center justify-center"
+            className="relative w-full bg-gradient-to-b from-primarypink via-primarygray/90 to-primarygray bg-cover bg-center flex items-center justify-center"
             id="services"
         >
 
 
             {/* Centered content */}
-            <div className="relative z-10 text-center max-w-5xl lg:px-16 py-32">
+            <div className="relative z-10 text-center max-w-5xl px-3 lg:px-16 py-32">
                 {/* Title box with border */}
                 <div className=" rounded-none inline-block mb-12">
                     <h1 className="text-5xl md:text-6xl font-normal text-accent headingclass">
