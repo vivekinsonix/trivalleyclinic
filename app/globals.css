@@ -18,14 +18,15 @@
 
   /* custom primary color */
 
-  --color-primary: #f2eeed;
+  --color-primary: #f6edec;
   --color-primarypink: #eabdc0;
   --color-primarysky: #dde4f1;
   --color-primaryteal: #7eabac;
   --color-primarygray: #f6edec;
+  --color-primaryyellow: #fff4e1;
 
   --color-highlight: #e1d1cb;
-  --color-accent: #312c27;
+  --color-accent: #40403e;
 
   /* custom secondary color */
 

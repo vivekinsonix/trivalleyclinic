@@ -1,12 +1,12 @@
 "use client";
 
-import { Card } from "flowbite-react";
+import { Button, Card } from "flowbite-react";
 
 const doctors = [
     {
         name: "Dr. Japsharan Gill, MD",
         title: "Psychiatrist",
-        img: "dr.jpg",
+        img: "doctor-female-placeholder.jpg",
         desc: "Dr. Gill is dedicated to providing compassionate and comprehensive mental health care. She specializes in diagnostic evaluations and evidence-based treatment plans that empower patients on their path to recovery and well-being.",
     },
     {
@@ -33,9 +33,13 @@ export default function DoctorGrid() {
                     <h3 className="text-2xl font-bold text-stone-900">{doctor.name}</h3>
                     <p className="text-primaryteal font-semibold mt-1">{doctor.title}</p>
                     <p className="text-stone-600 my-4">{doctor.desc}</p>
-                    <a className="px-8 py-3 text-sm  justify-center flex  underline">
-                        Read More
-                    </a>
+                            <Button outline
+                                       color="default"
+                                       size="lg"
+                                       className="px-6 py-3 h-10 text-lg font-semibold shadow-lg m-auto"
+                                   >
+                                         Read More
+                                   </Button>
                 </Card>
             ))}
         </div>

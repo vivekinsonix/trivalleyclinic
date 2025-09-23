@@ -6,28 +6,29 @@ import { ThemeProvider, createTheme } from "flowbite-react";
 const customTheme = createTheme({
     navbar: {
         root: {
-            base: "bg-primary dark:bg-primary py-4 rounded-none text-accent",
+            base: "bg-primary dark:bg-primary py-4 rounded-none text-accent dark:hover:text-accent",
             rounded: {
-                on: "rounded-none",
-                off: "",
+                on: "rounded-none text-accent hover:text-accent",
+                off: "text-accent hover:text-accent dark:hover:text-accent ",
             },
         },
         brand: {
             base: "flex items-center space-x-2 text-2xl font-bold text-accent",
         },
         toggle: {
-            base: "text-gray-200 hover:text-accent focus:ring-0 focus:ring-accent rounded-lg",
+            base: "text-accent hover:text-accent focus:ring-0 focus:ring-accent rounded-lg",
         },
         collapse: {
             base: "mt-8 md:mt-0 flex flex-col md:flex-row md:space-x-6",
         },
-        link: {
-            base: "text-accent dark:text-accent pt-2 flex items-center hover:text-accent transition-colors duration-200 border-0",
-            active: {
-                on: "text-accent font-normal hover:text-accent dark:text-accent bg-highlight lg:bg-transparent dark:lg:bg-transparent",
-                off: "text-accent dark:text-accent hover:text-accent dark:hover:text-accent",
-            },
-        },
+ link: {
+  base: "pt-2 flex items-center transition-colors duration-200 border-0 text-accent hover:!text-accent dark:text-accent dark:hover:!text-accent focus:!text-accent active:!text-accent",
+  active: {
+    on: "!text-accent dark:text-accent font-normal bg-highlight lg:bg-transparent dark:lg:bg-transparent",
+    off: "text-accent hover:!text-accent dark:text-accent dark:hover:!text-accent",
+  },
+},
+
     },
 
     button: {
@@ -46,11 +47,11 @@ const customTheme = createTheme({
         },
         color: {
             default:
-                "bg-primarysky text-accent hover:primarysky/70 cursor-pointer dark:bg-primarysky focus:ring-none " +
-                "dark:bg-primarysky dark:hover:bg-primarysky dark:focus:ring-none",
+                "bg-primarypink text-accent hover:primarysky/70 cursor-pointer dark:bg-primarypink focus:ring-none " +
+                "dark:bg-primarypink dark:hover:bg-primarypink dark:focus:ring-none",
         },
         outlineColor: {
-            "default": "border bg-primaryteal  border-primaryteal rounded-0 text-accent hover:border-primaryteal hover:bg-primaryteal/70 hover:text-accent focus:ring-primary-300 shadow-2xl dark:border-primaryteal dark:text-accent dark:hover:border-primaryteal dark:hover:bg-primaryteal/70 cursor-pointer dark:hover:text-accent dark:focus:ring-primary",
+            "default": "border bg-primaryyellow  border-accent rounded-0 text-accent hover:border-accent hover:bg-primarypink/70 hover:text-accent focus:ring-primary-300 shadow-2xl dark:border-accent dark:text-accent dark:hover:border-accent dark:hover:bg-primarypink/70 cursor-pointer dark:hover:text-accent dark:focus:ring-primary",
         }
     },
     card: {

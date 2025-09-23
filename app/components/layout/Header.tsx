@@ -24,9 +24,9 @@ export function Header() {
                     {/* <NavbarLink href="#" active>
                         Home
                     </NavbarLink> */}
-                    <NavbarLink href="#services" active>Services</NavbarLink>
-                    <NavbarLink href="#doctors" >Our Doctors</NavbarLink>
-                    <NavbarLink href="#schedule" >Contact</NavbarLink>
+                    <NavbarLink className="text-accent hover:text-accent dark:hover:text-accent" href="#services" active>Services</NavbarLink>
+                    <NavbarLink className="text-accent hover:text-accent dark:hover:text-accent" href="#doctors" >Our Doctors</NavbarLink>
+                    <NavbarLink className="text-accent hover:text-accent dark:hover:text-accent"  href="#schedule" >Contact</NavbarLink>
                 </NavbarCollapse>
             </Navbar>
 

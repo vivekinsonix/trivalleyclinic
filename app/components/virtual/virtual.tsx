@@ -9,17 +9,17 @@ export default function Virtual() {
         <section
             className="relative h-[90vh] w-full bg-cover bg-center flex items-center justify-center" id="schedule"
             style={{
-                backgroundImage: "url('/appointment.jpg')", // replace with your image path
+                backgroundImage: "url('/appointments.jpg')", // replace with your image path
             }}
         >
             {/* Overlay (optional for dark effect) */}
-            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 bg-primarypink/20" />
 
             {/* Centered content */}
             <div className="relative z-10 text-center max-w-3xl">
                 {/* Title box with border */}
                 <div className="border-2 border-accent bg-gradient-to-b from-primary via-primary/90 to-primarygray rounded-none px-16 py-32 inline-block">
-                    <h1 className="text-5xl md:text-6xl mb-3 font-normal text-accent headingclass">
+                    <h1 className="text-4xl md:text-6xl mb-3 font-normal text-accent headingclass">
                         Schedule Your Appointment.
                     </h1>
                     <p className="mt-3  text-stone-600">

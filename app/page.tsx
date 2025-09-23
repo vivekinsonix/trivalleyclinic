@@ -1,3 +1,4 @@
+import Footer from "./components/layout/Footer";
 import { Header } from "./components/layout/Header";
 import Hero from "./components/layout/Hero";
 import Services from "./components/services/Services";
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Ourteam />
       <Virtual />
+      <Footer />
 
 
     </>

@@ -12,7 +12,7 @@ export default function Ourteam() {
 
 
             {/* Centered content */}
-            <div className="relative z-10 text-center max-w-5xl lg:px-16 px-3 py-32">
+            <div className="relative z-10 text-center max-w-5xl lg:px-16 px-3 lg:py-32 py-16">
                 {/* Title box with border */}
                 <div className="  rounded-none inline-block mb-12">
                     <h1 className="text-5xl md:text-6xl font-normal text-accent headingclass">
