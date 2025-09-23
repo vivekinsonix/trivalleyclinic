@@ -22,7 +22,7 @@ const customTheme = createTheme({
             base: "mt-8 md:mt-0 flex flex-col md:flex-row md:space-x-6",
         },
         link: {
-            base: "text-gray-50 dark:text-gray-50 pt-2 flex items-center hover:text-accent transition-colors duration-200 border-0",
+            base: "text-accent dark:text-accent pt-2 flex items-center hover:text-accent transition-colors duration-200 border-0",
             active: {
                 on: "!text-accent font-normal hover:!text-accent bg-highlight lg:bg-transparent dark:lg:bg-transparent",
                 off: "text-gray-50 hover:!text-accent",
