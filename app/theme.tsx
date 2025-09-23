@@ -47,7 +47,7 @@ const customTheme = createTheme({
         },
         color: {
             default:
-                "bg-primarypink text-accent hover:primarysky/70 cursor-pointer dark:bg-primarypink focus:ring-none " +
+                "bg-primarypink text-accent hover:bg-primaryyellow cursor-pointer dark:bg-primarypink dark:hover:bg-primarypink focus:ring-none " +
                 "dark:bg-primarypink dark:hover:bg-primarypink dark:focus:ring-none",
         },
         outlineColor: {
