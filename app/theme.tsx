@@ -6,14 +6,14 @@ import { ThemeProvider, createTheme } from "flowbite-react";
 const customTheme = createTheme({
     navbar: {
         root: {
-            base: "bg-primary dark:bg-primary py-4 rounded-none text-white",
+            base: "bg-primary dark:bg-primary py-4 rounded-none text-accent",
             rounded: {
                 on: "rounded-none",
                 off: "",
             },
         },
         brand: {
-            base: "flex items-center space-x-2 text-2xl font-bold text-white",
+            base: "flex items-center space-x-2 text-2xl font-bold text-accent",
         },
         toggle: {
             base: "text-gray-200 hover:text-accent focus:ring-0 focus:ring-accent rounded-lg",
@@ -24,8 +24,8 @@ const customTheme = createTheme({
         link: {
             base: "text-accent dark:text-accent pt-2 flex items-center hover:text-accent transition-colors duration-200 border-0",
             active: {
-                on: "!text-accent font-normal hover:!text-accent bg-highlight lg:bg-transparent dark:lg:bg-transparent",
-                off: "text-gray-50 hover:!text-accent",
+                on: "text-accent font-normal hover:text-accent bg-highlight lg:bg-transparent dark:lg:bg-transparent",
+                off: "text-accent hover:text-accent",
             },
         },
     },
