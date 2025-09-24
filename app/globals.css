@@ -14,23 +14,26 @@
   /* --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono); */
 
-  --color-body: #faf9f5;
+  --color-body: #f4f4f2;
 
   /* custom primary color */
+  --color-primary: #e8a29c;
+  --color-primarydark: #3b3f46;
+  --color-primarylight: #f4f4f2;
+  /* custom secondary color */
+  --color-secondary: #a3bfa8;
+  --color-secondarydark: #5a7d9a;
+  --color-highlight: #c1beb7;
+  --color-accent: #3b3f46;
 
-  --color-primary: #f6edec;
-  --color-primarypink: #eabdc0;
-  --color-primarysky: #dde4f1;
+  /*--color-primarypink: #eabdc0; */
+  /* --color-primarysky: #dde4f1;
   --color-primaryteal: #7eabac;
   --color-primarygray: #f6edec;
-  --color-primaryyellow: #fff4e1;
+  --color-primaryyellow: #fff4e1; */
 
-  --color-highlight: #e1d1cb;
-  --color-accent: #40403e;
-
-  /* custom secondary color */
-
-  --color-secondary: #000;
+  /* --color-highlight: #c1beb7;
+  --color-accent: #3b3f46; */
 
   /* custom color */
 }

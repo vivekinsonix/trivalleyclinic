@@ -6,28 +6,28 @@ import { ThemeProvider, createTheme } from "flowbite-react";
 const customTheme = createTheme({
     navbar: {
         root: {
-            base: "bg-primary dark:bg-primary py-4 rounded-none text-accent dark:hover:text-accent",
+            base: "bg-secondarydark dark:bg-secondarydark py-4 rounded-none text-accent dark:hover:text-accent",
             rounded: {
                 on: "rounded-none text-accent hover:text-accent",
                 off: "text-accent hover:text-accent dark:hover:text-accent ",
             },
         },
         brand: {
-            base: "flex items-center space-x-2 text-2xl font-bold text-accent",
+            base: "flex items-center space-x-2 text-2xl font-bold text-primarylight",
         },
         toggle: {
-            base: "text-accent hover:text-accent focus:ring-0 focus:ring-accent rounded-lg",
+            base: "text-accent hover:text-accent focus:ring-0 bg-transaprent focus:ring-accent rounded-lg",
         },
         collapse: {
-            base: "mt-8 md:mt-0 flex flex-col md:flex-row md:space-x-6",
+            base: "mt-8 md:mt-0 flex flex-col md:flex-row md:space-x-6 !border-0",
         },
- link: {
-  base: "pt-2 flex items-center transition-colors duration-200 border-0 text-accent hover:!text-accent dark:text-accent dark:hover:!text-accent focus:!text-accent active:!text-accent",
-  active: {
-    on: "!text-accent dark:text-accent font-normal bg-highlight lg:bg-transparent dark:lg:bg-transparent",
-    off: "text-accent hover:!text-accent dark:text-accent dark:hover:!text-accent",
-  },
-},
+        link: {
+            base: "pt-2 flex items-center transition-colors duration-200 !border-b-0 !text-highlight hover:!text-primarylight dark:text-primarylight dark:hover:!text-primarylight focus:!text-primarylight active:!text-primarylight",
+            active: {
+                on: "!text-primarylight dark:text-primarylight font-normal bg-primarydark lg:bg-transparent dark:lg:bg-transparent",
+                off: "text-primarylight hover:!text-primarylight dark:text-primarylight dark:hover:!text-primarylight",
+            },
+        },
 
     },
 
@@ -47,11 +47,11 @@ const customTheme = createTheme({
         },
         color: {
             default:
-                "bg-primarypink text-accent hover:bg-primaryyellow cursor-pointer dark:bg-primarypink dark:hover:bg-primarypink focus:ring-none " +
-                "dark:bg-primarypink dark:hover:bg-primarypink dark:focus:ring-none",
+                "bg-primary text-accent hover:bg-primaryow cursor-pointer dark:bg-primary dark:hover:bg-primary focus:ring-none " +
+                "dark:bg-primary dark:hover:bg-primary dark:focus:ring-none",
         },
         outlineColor: {
-            "default": "border bg-primaryyellow  border-accent rounded-0 text-accent hover:border-accent hover:bg-primarypink/70 hover:text-accent focus:ring-primary-300 shadow-2xl dark:border-accent dark:text-accent dark:hover:border-accent dark:hover:bg-primarypink/70 cursor-pointer dark:hover:text-accent dark:focus:ring-primary",
+            "default": "border bg-secondary  border-accent rounded-0 text-accent hover:border-hightlight hover:bg-secondary/70 hover:text-accent focus:ring-primary-300 shadow-2xl dark:border-accent dark:text-accent dark:hover:border-accent dark:hover:bg-secondary/70 cursor-pointer dark:hover:text-accent dark:focus:ring-primary",
         }
     },
     card: {

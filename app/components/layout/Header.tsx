@@ -11,12 +11,12 @@ export function Header() {
         <>
 
             <Navbar fluid rounded>
-                <NavbarBrand href="https://insonix.com">
+                <NavbarBrand href="/">
                     {/* <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" /> */}
-                    <span className="self-center hidden lg:block text-accent whitespace-nowrap text-xl font-semibold dark:text-accent headingclass uppercase">Tri-Valley-Clinic</span>
-                    <span className="self-center lg:hidden text-accent whitespace-nowrap text-xl font-semibold dark:text-accent headingclass">TVC</span>
+                    <span className="self-center hidden lg:block text-primarylight whitespace-nowrap text-xl font-semibold dark:text-primarylight headingclass uppercase">Tri-Valley-Clinic</span>
+                    <span className="self-center lg:hidden text-primarylight whitespace-nowrap text-xl font-semibold dark:text-primarylight headingclass">TVC</span>
                 </NavbarBrand>
-                <div className="flex md:order-2 bg-primary ">
+                <div className="flex md:order-2  ">
                     <Button href="#schedule" className="lg:px-8 lg:py-4 lg:h-12 lg:text-lg text-sm font-semibold shadow-lg m-auto" outline >Request Appointment</Button>
                     <NavbarToggle className="ml-2" />
                 </div>
@@ -26,7 +26,7 @@ export function Header() {
                     </NavbarLink> */}
                     <NavbarLink className="text-accent hover:text-accent dark:hover:text-accent" href="#services" active>Services</NavbarLink>
                     <NavbarLink className="text-accent hover:text-accent dark:hover:text-accent" href="#doctors" >Our Doctors</NavbarLink>
-                    <NavbarLink className="text-accent hover:text-accent dark:hover:text-accent"  href="#schedule" >Contact</NavbarLink>
+                    <NavbarLink className="text-accent hover:text-accent dark:hover:text-accent" href="#schedule" >Contact</NavbarLink>
                 </NavbarCollapse>
             </Navbar>
 

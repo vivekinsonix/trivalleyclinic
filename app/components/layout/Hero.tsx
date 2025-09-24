@@ -7,16 +7,16 @@ export default function Hero() {
         <section
             className="relative h-[90vh] w-full bg-cover bg-center flex items-center justify-center"
             style={{
-                backgroundImage: "url('/tri3.jpg')", // replace with your image path
+                backgroundImage: "url('/hero.jpg')", // replace with your image path
             }}
         >
             {/* Overlay (optional for dark effect) */}
-            <div className="absolute inset-0 bg-primarypink/20" />
+            <div className="absolute inset-0 bg-primarypink/0" />
 
             {/* Centered content */}
             <div className="relative z-10 text-center max-w-3xl">
                 {/* Title box with border */}
-                <div className="border-2 border-accent bg-gradient-to-b from-primary via-primary/90 to-primarygray rounded-none lg:px-16 py-32 inline-block">
+                <div className="border-2 border-accent bg-primarylight dark:bg-primarylight rounded-none lg:px-16 py-32 inline-block">
                     <h1 className="text-4xl md:text-6xl font-normal text-accent headingclass">
                         Feeling  Overwhelmed, Anxious, or Alone?
                     </h1>
@@ -35,7 +35,7 @@ export default function Hero() {
                         Start Your Journey to Feeling Better
                     </Button>
                     <Button outline
-                       
+
                         size="lg"
                         className="px-4 py-3 text-lg font-semibold shadow-lg lg:m-auto mt-5 w-full"
                     >
