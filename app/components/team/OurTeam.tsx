@@ -6,7 +6,7 @@ import DoctorCard from "./DoctorCards";
 export default function Ourteam() {
     return (
         <section
-            className="relative w-full bg-gradient-to-b from-primarylight via-primarylight/90 to-primarylight bg-cover bg-center flex items-center justify-center" id="doctors"
+            className="relative w-full bg-gradient-to-l from-primarylight via-primarylight to-secondary/30 bg-cover bg-center flex items-center justify-center" id="doctors"
 
         >
 

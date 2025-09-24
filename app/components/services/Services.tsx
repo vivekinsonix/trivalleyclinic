@@ -6,7 +6,7 @@ import { Servicestabs } from "./ServicesTabs";
 export default function Services() {
     return (
         <section
-            className="relative w-full bg-gradient-to-b from-primarylight via-primarylight/90 to-primarylight bg-cover bg-center flex items-center justify-center"
+            className="relative w-full bg-gradient-to-r from-primarylight via-primarylight to-primary/30 bg-cover bg-center flex items-center justify-center"
             id="services"
         >
 
