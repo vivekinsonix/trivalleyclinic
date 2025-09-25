@@ -14,7 +14,7 @@ const services = [
         bg: "bg-primary/20 dark:bg-primary/30 hover:bg-primary/40",
     },
     {
-        title: "Medication management ",
+        title: "Medication Management ",
         slug: "medication-management",
         description:
             "Evidence-based treatment for mood disorders, psychosis, and anxiety.",
@@ -52,6 +52,34 @@ const services = [
             "Evidence-based treatment for mood disorders, psychosis, and anxiety.",
         icon: <Brain className="h-10 w-10 text-primary" />,
         bg: "bg-primarydark/20 dark:bg-primarydark/20 hover:bg-primarydark/40",
+    },
+    {
+        title: "Depression",
+        slug: "mood-psychosis-anxiety",
+        description: "Support and treatment for depressive disorders.",
+        icon: <Brain className="h-10 w-10 text-primary" />,
+        bg: "bg-primary/20 dark:bg-primary/20 hover:bg-primary/40",
+    },
+    {
+        title: "Bipolar Disorder",
+        slug: "mood-psychosis-anxiety",
+        description: "Treatment and support for mood swings and bipolar disorder.",
+        icon: <Brain className="h-10 w-10 text-primary" />,
+        bg: "bg-secondary/20 dark:bg-secondary/20 hover:bg-secondary/40",
+    },
+    {
+        title: "ADHD",
+        slug: "mood-psychosis-anxiety",
+        description: "Support and treatment for attention and hyperactivity challenges.",
+        icon: <Brain className="h-10 w-10 text-primary" />,
+        bg: "bg-highlight/20 dark:bg-highlight/20 hover:bg-highlight/40",
+    },
+    {
+        title: "Substance Use Disorder",
+        slug: "mood-psychosis-anxiety",
+        description: "Support and treatment for substance use and addiction recovery.",
+        icon: <Brain className="h-10 w-10 text-primary" />,
+        bg: "bg-secondarydark/20 dark:bg-secondarydark/20 hover:bg-secondarydark/40",
     },
 ];
 
